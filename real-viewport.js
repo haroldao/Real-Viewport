@@ -18,3 +18,8 @@ window.setTimeout(() => {
 window.addEventListener('resize', () => {
   calc()
 });
+
+// Orientation change
+window.addEventListener('orientationchange', () => {
+  calc()
+});
