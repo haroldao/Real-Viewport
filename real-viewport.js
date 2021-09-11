@@ -10,9 +10,11 @@ const calc = () => {
   document.documentElement.style.setProperty('--vw', ${vw}px);
 }
 
-window.setTimeout(() => {
-  calc()
-}, 1000);
+calc();
+
+// window.setTimeout(() => {
+//   calc()
+// }, 1000);
 
 // Resize
 window.addEventListener('resize', () => {
